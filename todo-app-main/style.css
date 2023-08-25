@@ -1,0 +1,46 @@
+
+@import url('https://fonts.google.com/specimen/Josefin+Sans');
+/* Check Background: linear-gradient hsl(192, 100%, 67%) to hsl(280, 87%, 65%) */
+*{
+    padding: 0;
+    margin:0;
+    /* box-sizing: border-box; */
+    font-family: Josefin Sans;
+}
+body{
+    background: linear-gradient(45deg ,hsl(231, 37%, 11%) 50%,hsl(231, 37%, 11%));
+
+}
+.firstclass{
+    height: 30vh;
+    background-image: url('images/bg-desktop-dark.jpg') ;
+    background-size: cover no-repeat ;
+    align-items: center;
+    justify-content: center;
+    
+
+
+}
+.container{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.banner1{
+    color: white;
+    /* text-align: center ; */
+    /* justify-content: center; */
+    /* border: 2px solid black; */
+    letter-spacing: 1rem;
+
+
+}
+.forms{
+    background-color: hsl(235, 24%, 19%);
+    color: white;
+    letter-spacing: .5px;
+}
+form input[type='text']{
+    background:hsl(235, 24%, 19%); 
+    border: none;
+}

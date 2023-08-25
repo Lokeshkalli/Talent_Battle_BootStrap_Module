@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+</head>
+
+<body>
+      <div class="row">
+        <div class="col-sm-12">
+            <div class="nav bg-dark p-2 m-0">
+                <h4 class="nav-item text-light p-2 fw-bold  "> Destined Matrimony</h4>
+                <div class="d-flex nav-item mx-auto p-2">
+
+                  <div>  <a href="index.html" class="nav-item nav-link text-light p-2 m-1 text-center">Home</a></div>
+                    <div class="btn-grp ">
+                        <div class="nav-item dropdown"></div>
+                        <a href="index.html" class="nav-link text-light p-2 m-1 dropdown-toggle"
+                            data-bs-toggle="dropdown">Browse by</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="male.html" class="dropdown-item">Male</a> </li>
+                            <li><a href="Female.html" class="dropdown-item">Female</a> </li>
+                        </ul>
+                    </div>
+
+                    <a href="help.html" class="nav-item nav-link text-light p-2 m-1">Help</a>
+                    <a href="contactus.html" class="nav-item nav-link text-light p-2 m-1">Contact Us</a>
+
+                </div>
+
+                <div class="nav-item p-2 bg-dark ms-auto">
+                    <form class="d-flex input-group w-auto">
+                        <input type="search" class="form-control" aria-label="Search" placeholder="Search"
+                            aria-describedby="search-addon">
+                            <button type="button" class="btn btn-dark text-light" >
+                               <i class="bi bi-search"></i> Search 
+                            </button>
+                        <button type="button" class="btn nav-item text-light ms-auto" data-bs-toggle="modal" data-bs-target="#LoginModal">Login</button>
+                        <button type="button" class="btn nav-item text-light ms-auto" data-bs-toggle="modal" data-bs-target="#SignupModal">Sign up</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</header>
+    <!-- 
+        Modal
+     -->
+
+    <div class="modal fade" id="LoginModal" tabindex="-1" aria-hidden="true">
+
+        <div class="modal-dialog d-flex justify-content-center">
+            <div class="modal-content w-75">
+                <div class="modal-header">
+                    <h5 class="modal-title">Login</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+                </div>
+                <div class="modal-body p-4">
+                    <form>
+                        <div class="form-outline mb-4">
+                            <label for="email3" class="form-label"> Email Address</label>
+                            <input type="email" id="email3" class="form-control">
+                        </div>
+                        <div class="form-outline mb-4">
+                            <label for="password3" class="form-label"> Password</label>
+                            <input type="password" id="password3" class="form-control">
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block">Login</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="modal fade" id="SignupModal" tabindex="-1" aria-hidden="true">
+
+        <div class="modal-dialog d-flex justify-content-center">
+            <div class="modal-content w-75">
+                <div class="modal-header">
+                    <h5 class="modal-title">Sign-Up</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+                </div>
+                <div class="modal-body p-4">
+                    <form>
+                        <div class="form-outline mb-4">
+                            <label for="name" class="form-label"> Name</label>
+                            <input type="text" id="name" class="form-control">
+                        </div>
+                        <div class="form-outline mb-4">
+                            <label for="email3" class="form-label"> Email Address</label>
+                            <input type="email" id="email3" class="form-control">
+                        </div>
+                        <div class="form-outline mb-4">
+                            <label for="password3" class="form-label"> Password</label>
+                            <input type="password" id="password3" class="form-control">
+                        </div>
+                        <div class="form-outline mb-4">
+                            <label for="password3" class="form-label"> Confirm Password</label>
+                            <input type="password" id="password3" class="form-control">
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block">Login</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <h3 class="text-center p-2">Top Matches For You</h3>
+
+    <div class="container-sm">
+
+        <div class="row">
+            <div class="col-sm-3 p-4">
+                <div class="card card-link">
+                    <div class="text-center">
+                        <img class="card-img-top text-center" src="gallery/male1.jpg" alt="Maishkumar" height="300px">
+                    </div>
+                    <h5 class="card-title text-center ">
+                        Sanjay Kumar
+                    </h5>
+                    <div class="card-body">
+                        <p class="card-text text-center">
+                            "Iam a 27-year-old boy, Hindu, Engineer, Introvert, Family Oriented Boy"
+                        </p>
+                        <div class="text-center">
+                            <button type="button" class="btn btn-primary text-light rounded"> Express Intrest</button>
+                            <button type="button" class="btn btn-danger text-light rounded"> Send Mail</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="col-sm-3 p-4">
+                <div class="card card-link">
+                    <div class="text-center">
+                        <img class="card-img-top text-center" src="gallery/male3.jpg" alt="Maishkumar" height="300px">
+                    </div>
+                    <h5 class="card-title text-center ">
+                        Lohit Singh
+                    </h5>
+                    <div class="card-body">
+                        <p class="card-text text-center">
+                            "Iam a 27-year-old boy, Punjabi, Engineer, Introvert, Family Oriented Boy"
+                        </p>
+                        <div class="text-center">
+                            <button type="button" class="btn btn-primary text-light rounded"> Express Intrest</button>
+                            <button type="button" class="btn btn-danger text-light rounded"> Send Mail</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-sm-3 p-4">
+                <div class="card card-link">
+                    <div class="text-center">
+                        <img class="card-img-top text-center" src="gallery/male4.jpg" alt="Maishkumar" height="300px">
+                    </div>
+                    <h5 class="card-title text-center ">
+                        Harry Jeager
+                    </h5>
+                    <div class="card-body">
+                        <p class="card-text text-center">
+                            "Iam a 26-year-old boy, Hindu, Engineer, Introvert, Family Oriented Boy"
+                        </p>
+                        <div class="text-center">
+                            <button type="button" class="btn btn-primary text-light rounded"> Express Intrest</button>
+                            <button type="button" class="btn btn-danger text-light rounded"> Send Mail</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="col-sm-3 p-4">
+                <div class="card card-link">
+                    <div class="text-center">
+                        <img class="card-img-top text-center" src="gallery/male5.jpg" alt="Maishkumar" height="300px">
+                    </div>
+                    <h5 class="card-title text-center ">
+                        Manoj Addanki
+                    </h5>
+                    <div class="card-body">
+                        <p class="card-text text-center">
+                            "Iam a 21-year-old boy, Hindu, Foodie,Engineer, Introvert, Family Oriented Boy"
+                        </p>
+                        <div class="text-center">
+                            <button type="button" class="btn btn-primary text-light rounded"> Express Intrest</button>
+                            <button type="button" class="btn btn-danger text-light rounded"> Send Mail</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+            <div class="col-sm-3 p-2">
+                <div class="card card-link">
+                    <div class="text-center">
+                        <img class="card-img-top text-center" src="gallery/male7.jpg" alt="Maishkumar" height="300px">
+                    </div>
+                    <h5 class="card-title text-center ">
+                        Akshay
+                    </h5>
+                    <div class="card-body">
+                        <p class="card-text text-center">
+                            "Iam a 27-year-old boy, Hindu, Engineer, Introvert, Family Oriented Boy"
+                        </p>
+                        <div class="text-center">
+                            <button type="button" class="btn btn-primary text-light rounded"> Express Intrest</button>
+                            <button type="button" class="btn btn-danger text-light rounded"> Send Mail</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="col-sm-3 p-2">
+                <div class="card card-link">
+                    <div class="text-center">
+                        <img class="card-img-top text-center" src="gallery/male6.jpg" alt="Maishkumar" height="300px">
+                    </div>
+                    <h5 class="card-title text-center ">
+                        mostafa-sannad
+                    </h5>
+                    <div class="card-body">
+                        <p class="card-text text-center">
+                            "Iam a 27-year-old boy, software Engineer, Extrovert, Family Oriented Boy"
+                        </p>
+                        <div class="text-center">
+                            <button type="button" class="btn btn-primary text-light rounded"> Express Intrest</button>
+                            <button type="button" class="btn btn-danger text-light rounded"> Send Mail</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-sm-3 p-2">
+                <div class="card card-link">
+                    <div class="text-center">
+                        <img class="card-img-top text-center" src="gallery/male8.jpg" alt="Maishkumar" height="300px">
+                    </div>
+                    <h5 class="card-title text-center ">
+                        Sai varma
+                    </h5>
+                    <div class="card-body">
+                        <p class="card-text text-center">
+                            "Iam a 26-year-old boy, Hindu, Software Engineer, Introvert, Family Oriented Boy"
+                        </p>
+                        <div class="text-center">
+                            <button type="button" class="btn btn-primary text-light rounded"> Express Intrest</button>
+                            <button type="button" class="btn btn-danger text-light rounded"> Send Mail</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="col-sm-3 p-2">
+                <div class="card card-link">
+                    <div class="text-center">
+                        <img class="card-img-top text-center" src="gallery/male9.jpg" alt="Maishkumar" height="300px">
+                    </div>
+                    <h5 class="card-title text-center ">
+                        Rohit mehta
+                    </h5>
+                    <div class="card-body">
+                        <p class="card-text text-center">
+                            "Iam a 30-year-old boy,NRI, Business man, Extrovert, Family Oriented Boy"
+                        </p>
+                        <div class="text-center">
+                            <button type="button" class="btn btn-primary text-light rounded"> Express Intrest</button>
+                            <button type="button" class="btn btn-danger text-light rounded"> Send Mail</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <hr>
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+    </div>
+    <footer>
+        <div class="container shadow-lg">
+            <div class="row">
+
+                <div class="col-sm-12 text-center p-2 ">
+                    <a href="index.html" class="text-decoration-none px-3 text-secondary">Home</a> <a href="male.html" class="text-decoration-none p-3 text-secondary"> Male</a> <a href="female.html" class="text-decoration-none p-3 text-secondary">Female</a> <a href="contactus.html" class="text-decoration-none p-3 text-secondary">Contact us</a></div>
+
+
+            </div>
+            <div class="col-sm-12 text-center text-secondary p-3">
+                <p>Destined Matrimony 2023 Company,Inc</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+</body>
+
+</html>
